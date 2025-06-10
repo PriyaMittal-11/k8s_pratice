@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  namespace: sa 
+  name: nginx1
+  labels:
+    app: myapp
+spec:
+ automountServiceAccountToken: false
+ containers: 
+ - image: nginx
+   name: nginx1
+   resources: {}
+status: {}   
