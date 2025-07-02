@@ -1,0 +1,10 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": "/*.github/workflows/*",
+        "https://json.schemastore.org/kubernetes.json": [
+            "*.yaml",
+            "*.k8s.yaml",
+            "file:///Users/priyamittal/k8s_pratice/ingress/ingress.yaml"
+        ]
+    }
+}
